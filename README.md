@@ -7,7 +7,7 @@ This repository contains the hooks we use at `Gaia` in our development process.
 Clone this repository somewhere :
 
 ```bash
-git clone git@github.com:gaia-app/hooks.git
+git clone git@github.com:gaia-app/git-hooks.git
 ```
 
 ### Global setup (for all your repositories)
@@ -16,7 +16,7 @@ Enter the hooks directory and setup your hooks globally :
 
 ```bash
 cd hooks
-git config --global core.hooksPath $PWD/hooks
+git config --global core.hooksPath $PWD/git-hooks
 ```
 
 ### Local setup (for a repository only)
